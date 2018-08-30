@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Just layout styles */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    position: relative;
+    margin: 70px auto 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container div { 
+    flex: 1 0 100%;
+    box-sizing: border-box;
+}
+
+.demo--dark {
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 20%;
+    position: absolute;
+    padding: 24px 5px;
+    background-color: #3B3E47;
+    text-align: center;
+}
+
+.demo--blue {
+    top: 0;
+    left: 20%;
+    width: 20%;
+    height: 70px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 24px 5px;
+    background-color: #5376F1;
+    text-align: center;
+}
+
+.demo--dark-back {
+    left: 40%;
+    top: 0;
+    height: 70px;
+    width: 20%;
+    position: absolute;
+    padding: 24px 5px;
+    background-color: #3B3E47;
+    text-align: center;
+}
+
+.demo--purple {
+    left: 60%;
+    top: 0;
+    height: 70px;
+    width: 20%;
+    position: absolute;
+    padding: 24px 5px;
+    background-color: #825fe8;
+    text-align: center;
+}
+
+.demo--light {
+    left: 80%;
+    top: 0;
+    height: 70px;
+    width: 20%;
+    position: absolute;
+    padding: 24px 5px;
+    background-color: #B6B6B6;
+    text-align: center;
+}
+
+.content {
+    height: 1000px;
+    color: #A3A3A3;
+    margin-top: 70px;
+    padding: 24px 30px;
+    background-color: #fff;
+}
+
+.stopper {
+    height: 1000px;
+    padding: 24px 30px;
+    background-color: #3B3E47;
+}
