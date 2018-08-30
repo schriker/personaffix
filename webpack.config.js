@@ -5,10 +5,10 @@ const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
   entry: {
-    persona: './src/index.js'
+    person: './src/index.js'
   },
   output: {
-    library: 'Persona',
+    library: 'Person',
     libraryTarget: 'umd',
     filename: '[name].min.js',
     path: path.resolve(__dirname, 'dist/'),
