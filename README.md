@@ -1,11 +1,12 @@
 # PersonAffix 
 
 [Demo](https://schriker.github.io/personaffix/)
+
 Simple vanillajs script to affix elements on page. No jQuery needed. 
----
+
 ## Download
 * [personaffix-v1.0.0](https://github.com/schriker/personaffix/releases)
----
+
 ## Install
 From ../docs/ folder grab two files:
 
@@ -18,13 +19,13 @@ And include them in your project:
 <link rel="stylesheet" href="person.min.css">
 <script src="person.min.js"></script>
 ```
----
+
 ## Usage
 Basic usage:
 ```javascript
 var affix = new Person.Affix(".classNameOfElement");
 ```
----
+
 ## Options[Object]
 You can pass options when creating new Person.Affix:
 ```javascript
@@ -53,7 +54,7 @@ By default Person.Affix use options[Object] like so:
 * [Function]callback: null - Callback function when affixed.
 
 Check the [Demo](https://schriker.github.io/personaffix/) page to see the examples.
----
+
 ## Modifying source
 To change source first install all dependencies by running :
 `npm install`	
